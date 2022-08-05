@@ -1,5 +1,5 @@
 # Using AWS EC2 and RDS to Launch a Simple Data Table
-#### First what you need to do is either launch a default VPC or make one for example a VPC with a CIDR of 10.10.0.0/24 and be sure to make subnets at least 4 of them so that we can have 2 subnets with Public and 2 subnets with Private and be sure to connect the Public Subnets with IGW or Internet Gateway and NAT Gateway for Private Subnets.
+#### First what you need to do is either launch a default VPC or make one, for example a VPC with a CIDR of 10.10.0.0/24 and be sure to make subnets at least 4 of them so that we can have 2 subnets with Public and 2 subnets with Private and be sure to connect the Public Subnets with IGW or Internet Gateway and NAT Gateway for Private Subnets.
 #### Second We launch our Public EC2 Instance and be sure to install the following requirements:
 - Php7.4
 - Apache Web Server (HTTPD)
