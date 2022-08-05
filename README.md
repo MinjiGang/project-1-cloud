@@ -6,7 +6,7 @@
 - AWS CLI V2
 - MySQL
 #### Third After Installing the following requirements we can download the following files from this repository the aws.zip and the inventory.zip.
-##### be sure to unzip the aws.zip and inventory.zip in the Document Root of Apache (/var/www/html)
+##### - be sure to unzip the aws.zip and inventory.zip in the Document Root of Apache (/var/www/html)
 #### Check if the Website is running normally. If it's running normally we can move to our next step which is launching RDS
 #### Launch a Normal RDS Database and after creating, add the RDS Endpoint link to the website.
 #### Then we can just make a simple inventory Database Table.
