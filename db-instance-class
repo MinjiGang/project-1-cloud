@@ -1,10 +1,10 @@
-DB instance class types
+    DB instance class types
+   
+    Amazon RDS supports three types of instance classes: general purpose, memory optimized, and burstable performance. For more information about Amazon EC2 instance types, see Instance types in the Amazon EC2 documentation.
 
-Amazon RDS supports three types of instance classes: general purpose, memory optimized, and burstable performance. For more information about Amazon EC2 instance types, see Instance types in the Amazon EC2 documentation.
+    The following are the general-purpose DB instance types available:
 
-The following are the general-purpose DB instance types available:
-
-- db.m6g – General-purpose instance classes powered by AWS Graviton2 processors. These deliver balanced compute, memory, and networking for a broad range of general-purpose workloads.
+    db.m6g – General-purpose instance classes powered by AWS Graviton2 processors. These deliver balanced compute, memory, and networking for a broad range of general-purpose workloads.
 
     You can modify a DB instance to use one of the DB instance classes powered by AWS Graviton2 processors by completing the same steps as any other DB instance modification.
 
@@ -24,7 +24,7 @@ The following are the general-purpose DB instance types available:
 
     db.m3 – General-purpose instance classes that provide more computing capacity than the previous db.m1 instance classes.
 
-The following are the memory optimized DB instance types available:
+    The following are the memory optimized DB instance types available:
 
     db.x2g – Instance classes optimized for memory-intensive applications and powered by AWS Graviton2 processors. These offer low cost per GiB of memory.
 
@@ -56,10 +56,11 @@ The following are the memory optimized DB instance types available:
 
     db.r3 – Instance classes that provide memory optimization.
 
-The following are the burstable-performance DB instance types available:
+    The following are the burstable-performance DB instance types available:
 
-- db.t4g – General-purpose instance classes powered by Arm-based AWS Graviton2 processors. These deliver better price performance than previous burstable-performance DB instance classes for a broad set of burstable general-purpose workloads. Amazon RDS T4g instances are configured for Unlimited mode, which means that they can burst beyond the baseline over a 24-hour window for an additional charge.
+    db.t4g – General-purpose instance classes powered by Arm-based AWS Graviton2 processors. These deliver better price performance than previous burstable-performance DB instance classes for a broad set of burstable general-purpose workloads. Amazon RDS T4g instances are configured for Unlimited mode, which means that they can burst beyond the baseline over a 24-hour window for an additional charge.
 
-You can modify a DB instance to use one of the DB instance classes powered by AWS Graviton2 processors by completing the same steps as with any other DB instance modification.
-- db.t3 – Instance classes that provide a baseline performance level, with the ability to burst to full CPU usage. T3 instances are configured for Unlimited mode. These instance classes provide more computing capacity than the previous db.t2 instance classes. They are powered by the AWS Nitro System, a combination of dedicated hardware and lightweight hypervisor.
-- db.t2 – Instance classes that provide a baseline performance level, with the ability to burst to full CPU usage. T2 instances can be configured for Unlimited mode. We recommend using these instance classes only for development and test servers, or other nonproduction servers.
+    You can modify a DB instance to use one of the DB instance classes powered by AWS Graviton2 processors by completing the same steps as with any other DB instance modification.
+    
+    db.t3 – Instance classes that provide a baseline performance level, with the ability to burst to full CPU usage. T3 instances are configured for Unlimited mode. These instance classes provide more computing capacity than the previous db.t2 instance classes. They are powered by the AWS Nitro System, a combination of dedicated hardware and lightweight hypervisor.
+    db.t2 – Instance classes that provide a baseline performance level, with the ability to burst to full CPU usage. T2 instances can be configured for Unlimited mode. We recommend using these instance classes only for development and test servers, or other nonproduction servers.
