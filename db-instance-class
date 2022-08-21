@@ -66,3 +66,4 @@
     
     db.t2 – Instance classes that provide a baseline performance level, with the ability to burst to full CPU usage. T2 instances can be configured for Unlimited mode. We recommend using these instance classes only for development and test servers, or other nonproduction servers.
 
+    main source: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html
