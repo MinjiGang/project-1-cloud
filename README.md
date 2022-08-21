@@ -10,3 +10,4 @@
 #### Check if the Website is running normally. If it's running normally we can move to our next step which is launching RDS
 #### Launch a Normal RDS Database and after creating, add the RDS Endpoint link to the website.
 #### Then we can just make a simple inventory Database Table.
+#### READ MORE ABOUT AWS RDS(Relational Database Service) here: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
